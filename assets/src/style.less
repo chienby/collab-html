@@ -10,7 +10,8 @@
             margin-top: 57px;
             .image-logo {
                 img {
-                    padding-left: 18%;
+                    //padding-left: 18%;
+                    padding-left: 81px;
                 }
             }
             .menu {
@@ -26,7 +27,6 @@
                             display: inline-block;
                             font-size: 16px;
                             color: #707070;
-                            // font-family: '';
                         }
                         &:hover {
                             span {
@@ -40,10 +40,12 @@
             .protofil{
                 margin: auto;
                 .box-content{
-                    width: 172px;
-                    min-height: 42px;
-                    background: #EB005A;
+                    width: 196px;
+                    min-height: 36px;
+                    background: #e74178;
                     font-size:17px;
+                    box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+                    border-radius: 18px;
                     margin:70% 0 0 9%;
                     p{
                         text-align: center;
@@ -51,7 +53,59 @@
                         line-height: 42px;
                     }
                 }
-                
+                .filtrer {
+                    margin: 245px 0 0 35px;
+                }
+                .button {
+                    width: 180px;
+                    height: 43px;
+                    box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+                    background-color: #eb005a;
+                    opacity: 0.3;
+                    font-size: 17px;
+                    text-align: center;
+                    color: #000000;
+                }
+            }
+            .box-avatar {
+                margin: 67px 0 0 35px;
+                width: 195px;
+                height: 199px;
+                box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+                border-radius: 18px;
+                .image-box-avatar {
+                    .img {
+                        margin: 28px 0 0 81px;
+                        width: 32px;
+                        height: 31px;
+                    }
+                    .avatar-name {
+                        margin: 34px 0 0 42px;
+                        width: 106px;
+                        height: 21px;
+                        opacity: 0.8;
+                        color: #707070;
+                        font-size: 17px;
+                        font-weight: 400;
+                    }
+                    .avatar-job {
+                        margin: 31px 0 0 49px;
+                        width: 103px;
+                        height: 23px;
+                        color: #000000;
+                        font-size: 19px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .menu-choice {
+                margin: 58px 0 0 54px;
+                width: 93px;
+                height: 19px;
+                color: #707070;
+                font-family: Quora;
+                font-size: 16px;
+                font-weight: 400;
             }
         }
         .information {
@@ -91,14 +145,14 @@
                                         font-size:11px;
                                         color:#707070;
                                         &:nth-child(2){
-                                            float: right;
                                             padding-right:20%;
                                         }
                                     }
                                 }
                                 .name-position {
-                                    padding-top: 20px;
+                                    padding-top: 20px; 
                                     h4 {
+                                        margin-top: 52px;
                                         font-size: 26px;
                                         font-weight: bold;
                                     }
@@ -112,9 +166,7 @@
                                             line-height: 13px;
                                             width: 48px;
                                             height: 13px;
-                                            ;
                                             list-style: none;
-                                            ;
                                             float: left;
                                             background: #00EBAC;
                                             margin-right: 10px;
@@ -271,6 +323,136 @@
                                         m
                                         &:nth-child(3){
                                             color: #707070;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content {
+            margin-top: 32px;
+            .search { 
+                .search-box {
+                    margin-left: 95px;
+                    width: 746px;
+                    height: 50px;
+                    box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+                    border-radius: 18px;
+                    background-color: #ffffff;
+                    p {
+                        padding-top: 16px;
+                        margin-top: 57px;
+                        margin-left: 20px;
+                        width: 98px;
+                        height: 13px;
+                        color: #707070;
+                        font-family: Quora;
+                        font-size: 11px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .info {
+                .filter-field {
+                    .row {
+                        margin: 24px 0 0 95px;
+                        color: #707070;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                    .distance {
+                        margin-top: 36px;
+                    }
+                }
+                .filter-button {
+                    .filter-button-content {
+                        margin: 34px 0 0 600px;
+                        width: 234px;
+                        height: 36px;
+                        box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+                        border-radius: 18px;
+                        background-color: #00153e;
+                        p {
+                            padding-top: 5px;
+                            margin-left: 50px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+            .information {
+                margin: 36px 0 0 95px;
+                .row {
+                    .information-cnt {
+                        padding-right: 55px;
+                        .box-information {
+                            width: 342px;
+                            height: 122px;
+                            border-radius: 18px;
+                            box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+                            .row {
+                                display: flex;
+                                .image-box-imformation {
+                                    flex: 0 0 20%;
+                                    max-width: 20%;
+                                    .img {
+                                        margin: 28px 0 0 13px;
+                                        width: 31px;
+                                        height: 31px;
+                                    }
+                                }
+                                .position {
+                                    flex: 0 0 80%;
+                                    max-width: 80%;
+                                    height: auto;
+                                    .detail-infor{
+                                        span{
+                                            opacity: 0.8;
+                                            font-weight: 400;
+                                            font-size: 7px;
+                                            color:#707070;
+                                            &:nth-child(2){
+                                                float: right;
+                                                padding-right:20%;
+                                            }
+                                        }
+                                    }
+                                    .name-position {
+                                        padding-top: 17px;
+                                        h4 {
+                                            color: #000000;
+                                            font-size: 19px;
+                                            font-weight: 400;
+                                            font-weight: bold;
+                                        }
+                                    }
+                                    .skill {
+                                        ul {
+                                            width: 100%;
+                                            margin-left: -40px;
+                                            li {
+                                                text-align: center;
+                                                line-height: 13px;
+                                                width: 48px;
+                                                height: 13px;
+                                                list-style: none;
+                                                float: left;
+                                                background: #00EBAC;
+                                                margin-right: 10px;
+                                                border-radius: 10px;
+                                                &:nth-child(2) {
+                                                    background: #EBE200;
+                                                }
+                                                &:nth-child(3) {
+                                                    background: #EB005A;
+                                                }
+                                                p {
+                                                    font-size: 7px;
+                                                }
+                                            }
                                         }
                                     }
                                 }
