@@ -1,0 +1,257 @@
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  background: #FFFFFF;
+}
+.container-fluid .row {
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+}
+.container-fluid .row .tab-menu {
+  margin-top: 57px;
+}
+.container-fluid .row .tab-menu .image-logo img {
+  padding-left: 18%;
+}
+.container-fluid .row .tab-menu .menu {
+  margin-top: 40px;
+}
+.container-fluid .row .tab-menu .menu ul {
+  width: 100%;
+}
+.container-fluid .row .tab-menu .menu ul li {
+  width: 60%;
+  height: 63px;
+  list-style: none;
+  text-align: center;
+}
+.container-fluid .row .tab-menu .menu ul li span {
+  display: inline-block;
+  font-size: 16px;
+  color: #707070;
+}
+.container-fluid .row .tab-menu .menu ul li:hover span {
+  border-bottom: 3px solid #E74178;
+  color: #E74178;
+}
+.container-fluid .row .tab-menu .protofil {
+  margin: auto;
+}
+.container-fluid .row .tab-menu .protofil .box-content {
+  width: 172px;
+  min-height: 42px;
+  background: #EB005A;
+  font-size: 17px;
+  margin: 70% 0 0 9%;
+}
+.container-fluid .row .tab-menu .protofil .box-content p {
+  text-align: center;
+  color: white;
+  line-height: 42px;
+}
+.container-fluid .row .information {
+  margin-top: 57px;
+  padding-right: 0;
+}
+.container-fluid .row .information .row .information-left {
+  padding-right: 50px;
+}
+.container-fluid .row .information .row .information-left .box-information {
+  min-height: 163px;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+.container-fluid .row .information .row .information-left .box-information .row {
+  display: flex;
+}
+.container-fluid .row .information .row .information-left .box-information .row .image-box-imformation {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.container-fluid .row .information .row .information-left .box-information .row .image-box-imformation .img {
+  margin: 35px 0 0 21px;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+  overflow: hidden;
+}
+.container-fluid .row .information .row .information-left .box-information .row .image-box-imformation .img img {
+  width: 90%;
+  margin-left: 2px;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position {
+  flex: 0 0 80%;
+  max-width: 80%;
+  height: auto;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .detail-infor span {
+  font-size: 11px;
+  color: #707070;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .detail-infor span:nth-child(2) {
+  float: right;
+  padding-right: 20%;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .name-position {
+  padding-top: 20px;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .name-position h4 {
+  font-size: 26px;
+  font-weight: bold;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .skill ul {
+  width: 100%;
+  margin-left: -40px;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .skill ul li {
+  text-align: center;
+  line-height: 13px;
+  width: 48px;
+  height: 13px;
+  list-style: none;
+  float: left;
+  background: #00EBAC;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .skill ul li:nth-child(2) {
+  background: #EBE200;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .skill ul li:nth-child(3) {
+  background: #EB005A;
+}
+.container-fluid .row .information .row .information-left .box-information .row .position .skill ul li p {
+  font-size: 7px;
+}
+.container-fluid .row .information .row .information-left .box-information .row .infor-detail-1 {
+  width: 100%;
+}
+.container-fluid .row .information .row .information-left .box-information .row .infor-detail-1 .title-infor p {
+  line-height: 11px;
+  font-size: 11px;
+  padding-left: 25px;
+  color: #000000;
+}
+.container-fluid .row .information .row .information-left .box-information .row .infor-detail-1 .content-infor p {
+  line-height: 11px;
+  font-size: 11px;
+  color: #707070;
+}
+.container-fluid .row .information .row .information-left .box-information .row .infor-detail-2 {
+  width: 100%;
+}
+.container-fluid .row .information .row .information-left .box-information .row .infor-detail-2 .title-infor {
+  margin-top: 15px;
+}
+.container-fluid .row .information .row .information-left .box-information .row .infor-detail-2 .title-infor p {
+  line-height: 11px;
+  font-size: 11px;
+  padding-left: 25px;
+  color: #000000;
+}
+.container-fluid .row .information .row .information-left .box-information .row .infor-detail-2 .content-infor {
+  margin-top: 15px;
+}
+.container-fluid .row .information .row .information-left .box-information .row .infor-detail-2 .content-infor p {
+  line-height: 11px;
+  font-size: 11px;
+  color: #707070;
+}
+.container-fluid .row .information .row .information-right {
+  flex: 0 0 40%;
+  max-width: 40%;
+  background: #000;
+  min-height: 880px;
+  border-radius: 20px;
+}
+.container-fluid .row .information .row .information-right .row .img-inforRight {
+  margin-top: 45px;
+}
+.container-fluid .row .information .row .information-right .row .img-inforRight img {
+  width: 41px;
+  margin-left: 40%;
+}
+.container-fluid .row .information .row .information-right .row .title {
+  margin-top: 40px;
+}
+.container-fluid .row .information .row .information-right .row .title h4 {
+  text-align: center;
+}
+.container-fluid .row .information .row .information-right .row .note {
+  color: #707070;
+  margin-top: 30px;
+}
+.container-fluid .row .information .row .information-right .row .note p {
+  text-align: center;
+}
+.container-fluid .row .information .row .information-right .row .techniques {
+  margin: auto;
+  background: #000;
+  min-height: 129px;
+}
+.container-fluid .row .information .row .information-right .row .techniques .row .title-techniques {
+  margin: auto;
+  border-radius: 10px;
+  background: #00EBAC;
+  height: 17px;
+}
+.container-fluid .row .information .row .information-right .row .techniques .row .title-techniques p {
+  line-height: 17px;
+  font-size: 11px;
+  text-align: center;
+}
+.container-fluid .row .information .row .information-right .row .techniques .row .detail-techniques {
+  padding-top: 20px;
+}
+.container-fluid .row .information .row .information-right .row .techniques .row .detail-techniques p {
+  font-size: 11px;
+  line-height: 8px;
+}
+.container-fluid .row .information .row .information-right .row .techniques .row .detail-techniques p span {
+  color: #707070;
+  padding-left: 15px;
+}
+.container-fluid .row .information .row .information-right .row .techniques-2 {
+  margin: auto;
+  background: #000;
+  min-height: 129px;
+}
+.container-fluid .row .information .row .information-right .row .techniques-2 .row .title-techniques {
+  margin: auto;
+  border-radius: 10px;
+  background: #B1B1F8;
+  height: 17px;
+}
+.container-fluid .row .information .row .information-right .row .techniques-2 .row .title-techniques p {
+  line-height: 17px;
+  font-size: 11px;
+  text-align: center;
+}
+.container-fluid .row .information .row .information-right .row .techniques-2 .row .detail-techniques {
+  padding-top: 20px;
+}
+.container-fluid .row .information .row .information-right .row .techniques-2 .row .detail-techniques p {
+  font-size: 11px;
+  line-height: 8px;
+}
+.container-fluid .row .information .row .information-right .row .techniques-2 .row .detail-techniques p span {
+  color: #707070;
+  padding-left: 15px;
+}
+.container-fluid .row .information .row .information-right .row .exp {
+  font-size: 11px;
+}
+.container-fluid .row .information .row .information-right .row .exp .row .detail-exp {
+  margin-top: 35px;
+}
+.container-fluid .row .information .row .information-right .row .exp .row .detail-exp img {
+  margin-top: 50%;
+}
+m .container-fluid .row .information .row .information-right .row .exp .row .detail-exp p:nth-child(3) {
+  color: #707070;
+}
+.box-shadow {
+  box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+}

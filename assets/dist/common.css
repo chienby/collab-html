@@ -930,9 +930,3 @@ m .container-fluid .row .information .row .information-right .row .exp .row .det
   box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
   border-radius: 18px;
 }
-.container-fluid .row .loading-progress img {
-  margin: 159px 0 0 500px;
-}
-.container-fluid .row .loading1 img {
-  margin: 267px 0 0 582px;
-}
