@@ -1,0 +1,34 @@
+{
+  "name": "collab-html",
+  "version": "1.0.0",
+  "description": "An admin dashboard html",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangchien/collab-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quangchien/collab-html/issues"
+  },
+  "homepage": "https://github.com/quangchien/collab-html#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^5.0.2",
+    "gulp-inject-partials": "^1.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "merge-stream": "^1.0.1",
+    "run-sequence": "^2.2.1"
+  }
+}
