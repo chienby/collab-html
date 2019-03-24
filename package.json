@@ -11,16 +11,17 @@
     "url": "git+https://github.com/quangchien/collab-html.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nguyen Quang Chien",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/quangchien/collab-html/issues"
   },
   "homepage": "https://github.com/quangchien/collab-html#readme",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "browser-sync": "^2.26.3",
     "del": "^4.0.0",
-    "gulp": "^4.0.0",
+    "gulp": "3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-inject": "^5.0.2",
     "gulp-inject-partials": "^1.0.4",
@@ -28,7 +29,9 @@
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.3.1",
     "merge-stream": "^1.0.1",
+    "popper.js": "^1.14.7",
     "run-sequence": "^2.2.1"
   }
 }
