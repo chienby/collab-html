@@ -16,7 +16,7 @@ gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
         port: 3000,
-        server: './pages',
+        server: './',
         ghostMode: false,
         notify: false,
     });
@@ -31,7 +31,7 @@ gulp.task('serve', ['sass'], function() {
 gulp.task('serve:lite', function() {
 
     browserSync.init({
-        server: "./pages",
+        server: './',
         ghostMode: false,
         notify: false,
     });
@@ -42,7 +42,7 @@ gulp.task('serve:lite', function() {
 });
 
 gulp.task('sass', function() {
-    return gulp.src('./scss/**/style.scss')
+    return gulp.src('./scss/style.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({ouputStyle: 'expanded'}).on('error', sass.logError))
         .pipe(sourcemaps.write('./maps'))
@@ -59,27 +59,35 @@ gulp.task('inject', function() {
    runSequence(
        'injectPartial',
        'injectCommonAssets',
+       'replacePath',
    );
 });
 
 
 /* inject partials like sidebar and navbar */
 gulp.task('injectPartial', function () {
-    return gulp.src('./pages/**/*.html', { base: './' })
+    return gulp.src('./**/*.html', { base: './' })
         .pipe(injectPartials())
-        .pipe(gulp.dest('./pages'));
+        .pipe(gulp.dest('.'));
 });
 
 /* inject Js and CCS assets into HTML */
 gulp.task('injectCommonAssets', function() {
-   return gulp.src('./pages/**/*.html')
+   return gulp.src('./**/*.html')
        .pipe(inject(gulp.src([
            './vendors/js/vendor.bundle.base.js',
        ], {read: false}), {relative: true}))
        .pipe(inject(gulp.src([
            './css/*.css',
        ], {read: false}), { relative: true }))
-       .pipe(gulp.dest('./pages'));
+       .pipe(gulp.dest('.'));
+});
+
+/*replace image path and linking after injection*/
+gulp.task('replacePath', function(){
+    gulp.src(['./pages/*.html'], { base: "./" })
+        .pipe(replace('src="images/', 'src="../images/'))
+        .pipe(gulp.dest('.'));
 });
 
 /*sequence for building vendor scripts and styles*/
