@@ -59,26 +59,27 @@ gulp.task('inject', function() {
    runSequence(
        'injectPartial',
        'injectCommonAssets',
-       'injectLayoutStyles',
-       'replacePath'
    );
 });
 
 
 /* inject partials like sidebar and navbar */
 gulp.task('injectPartial', function () {
-    return gulp.src('pages/**/*.html', { base: './' })
+    return gulp.src('./pages/**/*.html', { base: './' })
         .pipe(injectPartials())
-        .pipe(gulp.dest('.'));
+        .pipe(gulp.dest('./pages'));
 });
 
 /* inject Js and CCS assets into HTML */
 gulp.task('injectCommonAssets', function() {
-   return gulp.src('pages/**/*.html')
+   return gulp.src('./pages/**/*.html')
        .pipe(inject(gulp.src([
            './vendors/js/vendor.bundle.base.js',
-       ], {read: false}), {name: 'plugins', relative: true}))
-       .pipe(gulp.dest('.'));
+       ], {read: false}), {relative: true}))
+       .pipe(inject(gulp.src([
+           './css/*.css',
+       ], {read: false}), { relative: true }))
+       .pipe(gulp.dest('./pages'));
 });
 
 /*sequence for building vendor scripts and styles*/
