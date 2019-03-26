@@ -1,5 +1,9 @@
 /* Utilities */
 
+.grid-distance {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .grid-margin {
   margin-bottom: $card-spacing-y;
 }
@@ -95,4 +99,17 @@
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.text-headline {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-subtitle {
+  opacity: 0.8;
+  color: #707070;
+  font-size: 11px;
+  font-weight: 400;
 }

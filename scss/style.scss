@@ -1,1 +1,14 @@
-@import "common/common";
+@import "commons/common";
+
+/* MIXINS */
+@import "mixins/badges";
+
+/* LAYOUTS */
+@import "layouts/main";
+@import "layouts/sidebar";
+@import "layouts/content";
+
+/* COMPONENTS */
+@import "components/cards";
+@import "components/badges";
+@import "components/company";
