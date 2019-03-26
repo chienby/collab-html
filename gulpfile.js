@@ -15,7 +15,7 @@ const merge = require('merge-stream');
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        port: 3000,
+        port: 8000,
         server: './',
         ghostMode: false,
         notify: false,
@@ -31,6 +31,7 @@ gulp.task('serve', ['sass'], function() {
 gulp.task('serve:lite', function() {
 
     browserSync.init({
+        port: 8000,
         server: './',
         ghostMode: false,
         notify: false,
