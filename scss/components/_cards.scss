@@ -1,0 +1,161 @@
+/* Cards */
+
+.card {
+  border: 0;
+  box-shadow: $card-box-shadow;
+  -webkit-box-shadow: $card-box-shadow;
+  -moz-box-shadow: $card-box-shadow;
+  -ms-box-shadow: $card-box-shadow;
+  .card-body {
+    padding: $card-padding-y $card-padding-x;
+    + .card-body {
+      padding-top: 1rem;
+    }
+  }
+  .card-title {
+    color: $card-title-color;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    font-size: 1.125rem;
+  }
+  .card-subtitle {
+    @extend .text-gray;
+    font-weight: 400;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+
+  }
+  .card-description {
+    margin-bottom: 2.25rem;
+    font-weight: 400;
+    color: $card-description-color;
+  }
+  &.card-outline-success {
+    border: 1px solid theme-color("success");
+  }
+  &.card-outline-primary {
+    border: 1px solid theme-color("primary");
+  }
+  &.card-outline-warning {
+    border: 1px solid theme-color("warning");
+  }
+  &.card-outline-danger {
+    border: 1px solid theme-color("danger");
+  }
+  &.card-rounded {
+    @include border-radius(5px);
+  }
+  &.card-square {
+    border-radius: 0px;
+  }
+  &.card-faded {
+    background: #b5b0b2;
+    border-color: #b5b0b2;
+  }
+  &.card-circle-progress {
+    color: $white;
+    text-align: center;
+  }
+  &.card-img-holder {
+    position: relative;
+    .card-img-absolute {
+      position: absolute;
+      top:0;
+      right: 0;
+      height: 100%;
+    }
+  }
+  &.card-weather {
+    .weather-daily {
+      .weather-day {
+        opacity: .5;
+        font-weight: 900;
+      }
+      i {
+        font-size: 20px;
+      }
+      .weather-temp {
+        margin-top: .5rem;
+        margin-bottom: 0;
+        opacity: .5;
+        font-size: .75rem;
+      }
+    }
+  }
+
+  &.card-info {
+    .info-title {
+      color: #000000;
+      font-size: 11px;
+      font-weight: 400;
+    }
+
+    .info-content {
+      opacity: 0.8;
+      color: #707070;
+      font-size: 11px;
+      font-weight: 400;
+    }
+
+    p {
+      margin-bottom: 11px;
+    }
+  }
+
+  &.card-technique {
+    .technique-headline {
+      text-align: center;
+      font-size: 11px;
+      margin-bottom: 0.75rem;
+    }
+
+    .technique-detail {
+      font-size: 11px;
+      font-weight: 400;
+
+      .technique-title {
+        color: #000000;
+      }
+
+      .technique-content {
+        opacity: 0.8;
+        color: #707070;
+      }
+
+      p {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+
+  }
+
+  &.card-profile {
+    .profile-avatar {
+      border: 1px solid #999999;
+      background-color: #ffffff;
+      height: 51px;
+      width: 51px;
+      border-radius: 50%;
+    }
+
+    .profile-title {
+      opacity: 0.8;
+      color: #707070;
+      font-size: 11px;
+      font-weight: 400;
+    }
+
+    .profile-description {
+      color: #000000;
+      font-size: 26px;
+      font-weight: 400;
+    }
+
+    .profile-tags {
+      color: #000000;
+      font-weight: 400;
+    }
+  }
+
+}
