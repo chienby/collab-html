@@ -18,3 +18,12 @@
   }
 }
 
+.container-search {
+  @media(max-width: 991px) {
+    padding: 0 0.75rem;
+  }
+
+  @media(min-width: 992px) {
+    padding: 0 6.75rem;
+  }
+}

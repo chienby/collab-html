@@ -1,0 +1,7 @@
+/* Buttons */
+
+.btn {
+  &.btn-rounded {
+    @include border-radius(18px);
+  }
+}
