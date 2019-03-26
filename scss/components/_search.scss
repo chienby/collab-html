@@ -1,0 +1,19 @@
+/* Search */
+
+.search-suggestion {
+  .search-item:last-child {
+    width: 234px;
+  }
+
+  .search-item:not(:last-child) {
+    margin-right: 4.5rem;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+
+    &:hover {
+      color: #e74178;
+      cursor: pointer;
+    }
+  }
+}
