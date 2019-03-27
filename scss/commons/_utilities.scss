@@ -117,3 +117,21 @@
 .text-13 {
   font-size: 13px;
 }
+
+.hide-on-lg {
+  @media(max-width: 1200px) {
+    display: none;
+  }
+}
+
+.hide-on-md {
+  @media(max-width: 992px) {
+    display: none;
+  }
+}
+
+.hide-on-sm {
+  @media(max-width: 768px) {
+    display: none;
+  }
+}
