@@ -10,6 +10,7 @@ const inject = require('gulp-inject');
 const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
 const merge = require('merge-stream');
+const htmlBeautify = require('gulp-html-beautify');
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
@@ -61,6 +62,7 @@ gulp.task('inject', function() {
        'injectPartial',
        'injectCommonAssets',
        'replacePath',
+       'htmlBeautify',
    );
 });
 
@@ -91,6 +93,12 @@ gulp.task('replacePath', function(){
         .pipe(replace('src="images/', 'src="../../images/'))
         .pipe(replace('src="../images/', 'src="../../images/'))
         .pipe(gulp.dest('.'));
+});
+
+gulp.task('htmlBeautify', function() {
+   gulp.src(['./**/*.html'])
+       .pipe(htmlBeautify())
+       .pipe(gulp.dest('.'))
 });
 
 /*sequence for building vendor scripts and styles*/
