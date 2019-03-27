@@ -10,6 +10,12 @@
   &.badge-sm {
     font-size: 8px;
   }
+  &.badge-medium {
+    padding: .375rem .9625rem;
+  }
+  &.badge-long {
+    padding: .375rem 1.9625rem;
+  }
 }
 
 /*Badge outlined variations*/

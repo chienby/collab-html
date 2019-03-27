@@ -24,6 +24,14 @@ $lemon:             #ebe200;
 $lemon-03:          rgba(235, 226, 0, 0.3);
 $pastel:            #eb005a;
 $pastel-03:         rgba(235, 0, 90, 0.3);
+$magenta:           #e74178;
+$orchid:            #b1b1f8;
+$orchid-03:         rgba(177, 177, 248, 0.3);
+$azure:             #006ff0;
+$azure-03:          rgba(0, 111, 240, 0.3);
+$gold:              #ebeb00;
+$gold-03:           rgba(235, 235, 0, 0.3);
+
 
 
 $colors: (
@@ -46,6 +54,13 @@ $colors: (
   pastel-03:        $pastel-03,
   violet:           $violet,
   violet-03:        $violet-03,
+  magenta:          $magenta,
+  orchid:           $orchid,
+  orchid-03:        $orchid-03,
+  azure:            $azure,
+  azure-03:         $azure-03,
+  gold:             $gold,
+  gold-03:          $gold-03,
   gray:             #434a54,
   gray-light:       #aab2bd,
   gray-lighter:     #e8eff4,
