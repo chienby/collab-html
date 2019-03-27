@@ -13948,6 +13948,9 @@ code {
   font-size: 11px;
   font-weight: 400; }
 
+.text-13 {
+  font-size: 13px; }
+
 /* MIXINS */
 /* LAYOUTS */
 body {
@@ -14163,6 +14166,11 @@ body {
     cursor: pointer; }
     .card.card-clickable:hover {
       background-color: rgba(151, 151, 151, 0.25); }
+  .card.card-template {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px; }
+    .card.card-template .card-body {
+      padding: 1.88rem 2.41rem 0rem 2.41rem; }
 
 /* Badges */
 .badge {
@@ -14443,6 +14451,10 @@ select.form-control {
 
 .btn.btn-violet {
   background-color: #e74178;
+  color: #ffffff; }
+
+.btn.btn-grey {
+  background-color: #707070;
   color: #ffffff; }
 
 /* Search */
