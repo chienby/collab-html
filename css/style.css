@@ -13951,6 +13951,9 @@ code {
 .text-13 {
   font-size: 13px; }
 
+.text-16 {
+  font-size: 16px; }
+
 @media (max-width: 1200px) {
   .hide-on-lg {
     display: none; } }
@@ -13962,6 +13965,49 @@ code {
 @media (max-width: 768px) {
   .hide-on-sm {
     display: none; } }
+
+/* MODALS */
+.text-decor {
+  font-size: 11px; }
+
+.container-modal {
+  padding: 40px 20px; }
+
+.close-modal {
+  border-bottom: 1px solid #707070; }
+  .close-modal:hover {
+    color: #707070; }
+
+.profile-sec {
+  text-align: center;
+  padding-top: 46px; }
+  .profile-sec .profile-change:hover {
+    color: #707070;
+    text-decoration: none; }
+
+.profile-title {
+  font-size: 16px;
+  text-align: center; }
+
+p {
+  font-size: 11px; }
+
+.profile-description {
+  font-size: 27px;
+  margin-left: 35px; }
+
+.modal-info {
+  margin: 35px 84px 28px -44px;
+  text-align: center; }
+
+.info-sec {
+  margin: 29px 0 0 55px; }
+
+.mr-lf-60 {
+  margin-left: 60px; }
+
+.mr-lf-120 {
+  margin-left: 120px; }
 
 /* MIXINS */
 /* LAYOUTS */
@@ -14495,6 +14541,10 @@ select.form-control {
 
 .modal .modal-content.modal-content-shadow {
   box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09); }
+
+.modal.modal-verify .modal-body {
+  padding: 40px 20px;
+  text-align: center; }
 
 /* Accounts */
 .account {
