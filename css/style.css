@@ -14171,6 +14171,12 @@ body {
     border-bottom-left-radius: 0px; }
     .card.card-template .card-body {
       padding: 1.88rem 2.41rem 0rem 2.41rem; }
+  .card.card-enterprise {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000; }
+    .card.card-enterprise .card-body {
+      padding: 1.88rem 4.41rem 1.88rem 6.41rem; }
 
 /* Badges */
 .badge {
