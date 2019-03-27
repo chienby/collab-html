@@ -1,0 +1,31 @@
+/* Accounts */
+
+.account {
+  box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+  background-color: white;
+  border-radius: 18px;
+  margin: 30px;
+  padding: 25px 0px;
+
+  .account-avatar {
+    width: 32px;
+    height: 31px;
+    border: 1px solid #999999;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+  }
+
+  .account-name {
+    opacity: 0.8;
+    color: #707070;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .account-role {
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+  }
+}
