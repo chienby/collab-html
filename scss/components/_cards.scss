@@ -190,4 +190,13 @@
     }
   }
 
+  &.card-enterprise {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+
+    .card-body {
+      padding: 1.88rem 4.41rem 1.88rem 6.41rem;
+    }
+  }
 }
