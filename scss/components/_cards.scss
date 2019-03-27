@@ -137,6 +137,11 @@
       height: 51px;
       width: 51px;
       border-radius: 50%;
+
+      &.profile-avatar__sm {
+        height: 24px;
+        width: 24px;
+      }
     }
 
     .profile-title {
@@ -159,6 +164,13 @@
     .profile-tags {
       color: #000000;
       font-weight: 400;
+    }
+
+    .profile-commercial {
+      font-size: 9px;
+      font-weight: 400;
+      color: #707070;
+      opacity: 0.8;
     }
   }
 

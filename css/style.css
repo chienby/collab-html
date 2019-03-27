@@ -14137,6 +14137,9 @@ body {
     height: 51px;
     width: 51px;
     border-radius: 50%; }
+    .card.card-profile .profile-avatar.profile-avatar__sm {
+      height: 24px;
+      width: 24px; }
   .card.card-profile .profile-title {
     opacity: 0.8;
     color: #707070;
@@ -14151,6 +14154,11 @@ body {
   .card.card-profile .profile-tags {
     color: #000000;
     font-weight: 400; }
+  .card.card-profile .profile-commercial {
+    font-size: 9px;
+    font-weight: 400;
+    color: #707070;
+    opacity: 0.8; }
   .card.card-clickable {
     cursor: pointer; }
     .card.card-clickable:hover {
