@@ -13951,6 +13951,18 @@ code {
 .text-13 {
   font-size: 13px; }
 
+@media (max-width: 1200px) {
+  .hide-on-lg {
+    display: none; } }
+
+@media (max-width: 992px) {
+  .hide-on-md {
+    display: none; } }
+
+@media (max-width: 768px) {
+  .hide-on-sm {
+    display: none; } }
+
 /* MIXINS */
 /* LAYOUTS */
 body {
@@ -14175,8 +14187,12 @@ body {
     font-size: 12px;
     font-weight: 400;
     color: #000000; }
-    .card.card-enterprise .card-body {
-      padding: 1.88rem 4.41rem 1.88rem 6.41rem; }
+    @media (max-width: 991px) {
+      .card.card-enterprise .card-body {
+        padding: 1.88rem 2.41rem; } }
+    @media (min-width: 992px) {
+      .card.card-enterprise .card-body {
+        padding: 1.88rem 4.41rem 1.88rem 4.41rem; } }
 
 /* Badges */
 .badge {
