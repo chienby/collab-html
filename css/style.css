@@ -7360,6 +7360,13 @@
   --pastel-03: rgba(235, 0, 90, 0.3);
   --violet: #0000eb;
   --violet-03: rgba(0, 0, 235, 0.3);
+  --magenta: #e74178;
+  --orchid: #b1b1f8;
+  --orchid-03: rgba(177, 177, 248, 0.3);
+  --azure: #006ff0;
+  --azure-03: rgba(0, 111, 240, 0.3);
+  --gold: #ebeb00;
+  --gold-03: rgba(235, 235, 0, 0.3);
   --gray: #434a54;
   --gray-light: #aab2bd;
   --gray-lighter: #e8eff4;
@@ -14158,6 +14165,10 @@ body {
     border-radius: 10rem; }
   .badge.badge-sm {
     font-size: 8px; }
+  .badge.badge-medium {
+    padding: .375rem .9625rem; }
+  .badge.badge-long {
+    padding: .375rem 1.9625rem; }
 
 /*Badge outlined variations*/
 .badge-outline-primary {
@@ -14288,6 +14299,27 @@ body {
 .badge-theme-violet-03 {
   background-color: rgba(0, 0, 235, 0.3); }
 
+.badge-theme-magenta {
+  background-color: #e74178; }
+
+.badge-theme-orchid {
+  background-color: #b1b1f8; }
+
+.badge-theme-orchid-03 {
+  background-color: rgba(177, 177, 248, 0.3); }
+
+.badge-theme-azure {
+  background-color: #006ff0; }
+
+.badge-theme-azure-03 {
+  background-color: rgba(0, 111, 240, 0.3); }
+
+.badge-theme-gold {
+  background-color: #ebeb00; }
+
+.badge-theme-gold-03 {
+  background-color: rgba(235, 235, 0, 0.3); }
+
 .badge-theme-gray {
   background-color: #434a54; }
 
@@ -14399,15 +14431,12 @@ select.form-control {
   border-radius: 18px; }
 
 /* Search */
-.search-suggestion .search-item:last-child {
-  width: 234px; }
-
-.search-suggestion .search-item:not(:last-child) {
-  margin-right: 4.5rem;
+.search-suggestion .search-item {
+  margin-right: 2.5rem;
   color: #707070;
   font-size: 16px;
   font-weight: 400; }
-  .search-suggestion .search-item:not(:last-child):hover {
+  .search-suggestion .search-item:hover {
     color: #e74178;
     cursor: pointer; }
 
