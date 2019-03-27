@@ -4,4 +4,11 @@
   &.btn-rounded {
     @include border-radius(18px);
   }
+  &.btn-rounded-2x {
+    @include border-radius(25px);
+  }
+  &.btn-violet {
+    background-color: $magenta;
+    color: $white;
+  }
 }
