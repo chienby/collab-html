@@ -196,7 +196,13 @@
     color: #000000;
 
     .card-body {
-      padding: 1.88rem 4.41rem 1.88rem 6.41rem;
+      @media(max-width: 991px) {
+        padding: $card-padding-y $card-padding-x;
+      }
+
+      @media(min-width: 992px) {
+        padding: 1.88rem 4.41rem 1.88rem 4.41rem;
+      }
     }
   }
 }
