@@ -23,6 +23,7 @@
     "del": "^4.0.0",
     "gulp": "3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-html-beautify": "^1.0.1",
     "gulp-inject": "^5.0.2",
     "gulp-inject-partials": "^1.0.4",
     "gulp-rename": "^1.4.0",
