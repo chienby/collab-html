@@ -11,10 +11,48 @@
     }
   }
 
-  &.modal-verify {
+  &.modal-profile {
     .modal-body {
       padding: 40px 20px;
       text-align: center;
+    }
+
+    .profile-sec {
+      text-align: center;
+      padding-top: 46px;
+      .profile-change {
+        &:hover {
+          color: #707070;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .profile-title {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .profile-description {
+      font-size: 27px;
+      margin-left: 35px;
+    }
+
+    .modal-info {
+      font-size: 11px;
+      margin: 30px;
+      padding-right: 60px;
+    }
+
+    .info-sec {
+      margin: 20px 29px;
+    }
+
+    .close-modal {
+      border-bottom: 1px solid #707070;
+      &:hover {
+        color: #707070;
+      }
     }
   }
 }
