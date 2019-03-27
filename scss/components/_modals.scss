@@ -1,0 +1,13 @@
+/* Modals */
+
+.modal {
+  .modal-content {
+    &.modal-content-rounded {
+      @include border-radius(18px);
+    }
+
+    &.modal-content-shadow {
+      box-shadow: 0 10px 44px rgba(0, 0, 0, 0.09);
+    }
+  }
+}
