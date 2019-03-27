@@ -77,9 +77,10 @@ gulp.task('injectCommonAssets', function() {
    return gulp.src('./**/*.html')
        .pipe(inject(gulp.src([
            './vendors/js/vendor.bundle.base.js',
-       ], {read: false}), {relative: true}))
+       ], {read: false}), {name: 'plugins', relative: true}))
        .pipe(inject(gulp.src([
            './css/*.css',
+           './js/modal.js',
        ], {read: false}), { relative: true }))
        .pipe(gulp.dest('.'));
 });
