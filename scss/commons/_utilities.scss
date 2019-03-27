@@ -114,14 +114,6 @@
   font-weight: 400;
 }
 
-.text-13 {
-  font-size: 13px;
-}
-
-.text-16 {
-  font-size: 16px;
-}
-
 .hide-on-lg {
   @media(max-width: 1200px) {
     display: none;
@@ -140,55 +132,15 @@
   }
 }
 
-/* MODALS */
-.text-decor {
-  font-size: 11px;
+/* Text size */
+.text-13 {
+  font-size: 13px;
 }
 
-.container-modal {
-  padding: 40px 20px;
-}
-
-.close-modal {
-  border-bottom: 1px solid #707070;
-  &:hover {
-    color: #707070;
-  }
-}
-
-.profile-sec {
-  text-align: center;
-  padding-top: 46px;
-  .profile-change {
-    &:hover {
-      color: #707070;
-      text-decoration: none;
-    }
-  }
-}
-.profile-title {
+.text-16 {
   font-size: 16px;
-  text-align: center;
 }
-p {
+
+.text-11 {
   font-size: 11px;
-}
-.profile-description {
-  font-size: 27px;
-  margin-left: 35px;
-}
-.modal-info {
-  margin: 35px 84px 28px -44px;
-  text-align: center;
-}
-.info-sec {
-  margin: 20px 29px;
-}
-
-.mr-lf-60 {
-  margin-left: 60px;;
-}
-
-.mr-lf-120 {
-  margin-left: 120px;
 }
