@@ -87,8 +87,9 @@ gulp.task('injectCommonAssets', function() {
 
 /*replace image path and linking after injection*/
 gulp.task('replacePath', function(){
-    gulp.src(['./pages/*.html'], { base: "./" })
-        .pipe(replace('src="images/', 'src="../images/'))
+    gulp.src(['./pages/**/*.html'], { base: "./" })
+        .pipe(replace('src="images/', 'src="../../images/'))
+        .pipe(replace('src="../images/', 'src="../../images/'))
         .pipe(gulp.dest('.'));
 });
 
