@@ -13948,6 +13948,56 @@ code {
   font-size: 11px;
   font-weight: 400; }
 
+.text-decor {
+  font-size: 11px; }
+
+.container-modal {
+  max-width: 441px;
+  width: 100%;
+  margin-top: 27px; }
+
+.close-modal {
+  border-bottom: 1px solid #707070; }
+  .close-modal:hover {
+    color: #707070; }
+
+.profile-avatar {
+  margin: 29px 130px 17px; }
+
+.modal-btn-mb {
+  margin-bottom: 50px; }
+
+.profile-sec {
+  text-align: center;
+  padding-top: 46px; }
+  .profile-sec .profile-change:hover {
+    color: #707070;
+    text-decoration: none; }
+
+.profile-title {
+  font-size: 16px;
+  text-align: center; }
+
+p {
+  font-size: 11px; }
+
+.profile-description {
+  font-size: 27px;
+  margin-left: 35px; }
+
+.modal-info {
+  margin: 35px 84px 28px -44px;
+  text-align: center; }
+
+.info-sec {
+  margin: 29px 0 0 55px; }
+
+.mr-lf-60 {
+  margin-left: 60px; }
+
+.mr-lf-120 {
+  margin-left: 120px; }
+
 /* MIXINS */
 /* LAYOUTS */
 body {
