@@ -181,4 +181,13 @@
     }
   }
 
+  &.card-template {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    .card-body {
+      padding: 1.88rem 2.41rem 0rem 2.41rem;
+    }
+  }
+
 }
