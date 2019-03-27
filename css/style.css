@@ -14430,6 +14430,13 @@ select.form-control {
 .btn.btn-rounded {
   border-radius: 18px; }
 
+.btn.btn-rounded-2x {
+  border-radius: 25px; }
+
+.btn.btn-violet {
+  background-color: #e74178;
+  color: #ffffff; }
+
 /* Search */
 .search-suggestion .search-item {
   margin-right: 2.5rem;
