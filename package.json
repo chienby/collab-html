@@ -19,7 +19,7 @@
   "homepage": "https://github.com/quangchien/collab-html#readme",
   "dependencies": {
     "bootstrap": "4.1.1",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.27.10",
     "del": "^4.0.0",
     "gulp": "3.9.1",
     "gulp-concat": "^2.6.1",
